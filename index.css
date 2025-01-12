@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0; 
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+    background-color: whitesmoke; 
+} 
+header{
+
+   height: 2em;  
+}
+
+nav{
+    height: 100%;
+    position:fixed;
+    width: 100vw;
+}
+
+.main{
+    justify-content: space-between;
+    align-items: center;
+    top:0%;
+    padding: 0.8rem;
+}
+.pages{
+    position: relative;
+   
+}
+.img1{
+   padding-bottom: 1rem;
+   /* margin-right: 6rem; */
+}
+.img2{
+    margin-right: 9rem;
+}
+
+
+.base{
+display: flex;
+padding: 2rem;
+
+}
+
+.page-2{
+display: flex;
+justify-content: flex-end;
+gap: 2rem;
+top: 0%;
+}
+
+ .text{
+    
+    padding: 20rem;
+     
+} 
+.button{
+    width:20rem;
+    height: 90px;
+    background-color: #2DA530;
+    border-radius:46.2px;
+    top: 96.84px;
+    /* transition:all 400rem ease ; */
+    /* top: 76.01px;
+    left: 200px;
+    gap: 0px;
+    opacity: 0px;  
+    transition:all 400rem ease ;
+    border: 2rem;
+    background-color: #2DA530;
+    border-radius:46.2px;
+    font-size: 10px;
+    font-weight: bold; */
+}
+.button:hover{
+    transform: scale(1.3);
+    cursor: pointer;
+
+}
+/* .button a{
+    color: #FFFFFF;
+    text-decoration: none;
+} */
+h6{
+    font-size: medium;
+}
+
+
