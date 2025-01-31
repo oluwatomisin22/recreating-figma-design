@@ -1,198 +1,179 @@
-
-*{
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: 0; 
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
 }
 
-body{
-    font-family: "Inter", sans-serif !important;
-    background-color: #FCF4F2; 
-    
+body {
+  font-family: "Inter", sans-serif !important;
+  background-color: #fcf4f2;
+}
 
-} 
-
-button{
-    background-color: #2DA530;
-    color: white;
-    border-radius: 46.2px;
-    padding: 10px;
+button {
+  background-color: #2da530;
+  color: white;
+  border-radius: 46.2px;
+  padding: 10px;
 }
 
 /* Navbar */
-header .header-ad{
-    width: 100%;
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 16px;
-    padding: 16px;
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 23px;
-    color: #fff;
+header .header-ad {
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  padding: 16px 0px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 23px;
+  color: #fff;
 }
 
-header .header-ad p{
-    font-size: 15.86px;
-    font-weight: 400;
+header .header-ad p {
+  font-size: 15.86px;
+  font-weight: 400;
 }
 
-header .header-ad h3{
-    font-size: 15.86px;
-    font-weight: 700;
+header .header-ad h3 {
+  font-size: 15.86px;
+  font-weight: 700;
 }
 
-nav{
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 52px 84px 52px 49px;
+nav {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 52px 84px 52px 49px;
 }
 
-nav .logo{
-    width: 273px;
-    height: 85px;
+nav .logo {
+  width: 273px;
+  height: 85px;
 }
 
-nav .nav-links{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 24px;
-    font-size: 16px;
-    font-weight: 600;
+nav .nav-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  font-size: 16px;
+  font-weight: 600;
 }
 
-nav .nav-right-grp{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 29px;
+nav .nav-right-grp {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 29px;
 }
 
-nav button{
-    font-weight: 600;
-    font-size: 16px;
-    padding: 10px 20px;
+nav button {
+  font-weight: 600;
+  font-size: 16px;
+  padding: 10px 20px;
 }
-
 
 /* Body */
 
-.main{
-    justify-content: space-between;
-    align-items: center;
-    top:0%;
-    padding: 0.8rem;
+.main {
+  justify-content: space-between;
+  align-items: center;
+  top: 0%;
+  padding: 0.8rem;
 }
-.pages{
-    position: relative;
-   
+.pages {
+  position: relative;
 }
-.img1{
-   padding-bottom: 1rem;
-   /* margin-right: 6rem; */
+.img1 {
+  padding-bottom: 1rem;
+  /* margin-right: 6rem; */
 }
-.img2{
-    margin-right: 9rem;
-}
-
-
-.base{
-display: flex;
-padding: 2rem;
-
+.img2 {
+  margin-right: 9rem;
 }
 
-.page-2{
-display: flex;
-justify-content: flex-end;
-gap: 2rem;
-top: 0%;
+.base {
+  display: flex;
+  padding: 2rem;
 }
 
- .content{
-    
-    font-size: 25px;
-    font-weight: 20;
-    line-height: 53.04px; 
-    text-align: center;
-    position: inherit;
-    gap: 7.40px;
-    font:  'sans-serif' ;
-    
-} 
-.content_2{
-font-size: 26.2px;
-font-weight: 400;
-line-height: 38.08px;
-letter-spacing: -0.5440000295639038px;
-text-align: center;
-text-decoration-skip-ink: none;
-
-}
-.btn{
-    width:20rem;
-    height: 60px;
-    background-color: #2DA530;
-    color: white;
-    border-radius:46.2px;
-    top: 96.84px;
-    transition:all 400rem ease ; 
-} 
-.btn:hover{
-     transform: scale(1.3); 
-    cursor: pointer;
-
+.page-2 {
+  display: flex;
+  justify-content: flex-end;
+  gap: 2rem;
+  top: 0%;
 }
 
-h3{
-    font-size: 19px;
-    text-align: center;
+.content {
+  font-size: 25px;
+  font-weight: 20;
+  line-height: 53.04px;
+  text-align: center;
+  position: inherit;
+  gap: 7.4px;
+  font: "sans-serif";
 }
-.main_content{
-    display: flex;
-    font-family: "Inter", sans-serif !important;
-    position: relative;
-    padding-top: 2px;
-
+.content_2 {
+  font-size: 26.2px;
+  font-weight: 400;
+  line-height: 38.08px;
+  letter-spacing: -0.5440000295639038px;
+  text-align: center;
+  text-decoration-skip-ink: none;
 }
-.task_1{
- text-align: left; 
-font-family:"Inter", sans-serif !important;
-/* justify-content: space-between; */
-font-size: 18px;
-border: 4rem;
-width: 100%;
-height: 100%;
-padding-left: 80px;
-/* line-height: 50.46px; */
-
-
+.btn {
+  width: 20rem;
+  height: 60px;
+  background-color: #2da530;
+  color: white;
+  border-radius: 46.2px;
+  top: 96.84px;
+  transition: all 400rem ease;
 }
-.con_1{
-    font-family:"Inter", sans-serif !important;
-    border: 2px solid #E9EAEB;
-    background: #FFFFE1;
-    border-radius: 5px;
-    width: 22rem;
-    height: 15rem;
-    /* left: 1015.45px; */
-    padding-left: 70px;
-    text-decoration: underline;
-    text-align: left;
-    font-size: 14px;
-    font-style: solid;
-    line-height: 30.61px;
+.btn:hover {
+  transform: scale(1.3);
+  cursor: pointer;
+}
 
-
-
-
-
+h3 {
+  font-size: 19px;
+  text-align: center;
+}
+.main_content {
+  display: flex;
+  font-family: "Inter", sans-serif !important;
+  position: relative;
+  padding-top: 2px;
+}
+.task_1 {
+  text-align: left;
+  font-family: "Inter", sans-serif !important;
+  /* justify-content: space-between; */
+  font-size: 18px;
+  border: 4rem;
+  width: 100%;
+  height: 100%;
+  padding-left: 80px;
+  /* line-height: 50.46px; */
+}
+.con_1 {
+  font-family: "Inter", sans-serif !important;
+  border: 2px solid #e9eaeb;
+  background: #ffffe1;
+  border-radius: 5px;
+  width: 22rem;
+  height: 15rem;
+  /* left: 1015.45px; */
+  padding-left: 70px;
+  text-decoration: underline;
+  text-align: left;
+  font-size: 14px;
+  font-style: solid;
+  line-height: 30.61px;
 }
 /* .con_1 ul {
      width: Hug (254.64px)px;
@@ -201,15 +182,9 @@ padding: 0px 12.09px 0.11px 18.55px;
 gap: 4.66px;
 opacity: 0px; */
 
-
-h5{
-    width: 193px;
-height: 24px;
-gap: 2px;
-opacity: 0px;
-
+h5 {
+  width: 193px;
+  height: 24px;
+  gap: 2px;
+  opacity: 0px;
 }
-
-
-
-
